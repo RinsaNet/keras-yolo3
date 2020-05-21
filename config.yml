@@ -1,0 +1,16 @@
+title: keras-yolo3
+description: keras-yolo3
+template:
+  repo: keras-yolo3-template
+  name: keras-yolo3
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
