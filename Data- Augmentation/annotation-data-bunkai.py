@@ -3,7 +3,7 @@ import os
 import numpy as np
 import cv2
 
-annotated_Textdata=rf'E:\DeepLearningProgramBackup\siitake_zentai_many1817mai\model_data\2007_val.txt'
+annotated_Textdata=rf'E:\vott_output\model_data\2007_val.txt'
 
 #1度に全行を１行ずつ読み込む
 with open(annotated_Textdata) as f:
